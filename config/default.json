@@ -1,4 +1,6 @@
 {
   "mongoURI": "mongodb+srv://ali:ali@cluster0-kbsf3.mongodb.net/test?retryWrites=true&w=majority",
-  "jwtSecret": "sQwerDfgh"
+  "jwtSecret": "sQwerDfgh",
+  "githubClientId": "61c8269c11347883369f",
+  "githubSecret": "62141f9eef3e17ca30e469297ec45ce7058ee784"
 }
