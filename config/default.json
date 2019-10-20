@@ -1,4 +1,4 @@
 {
-  "mongoURI": "mongodb://localhost/data",
+  "mongoURI": "mongodb+srv://ali:ali@cluster0-kbsf3.mongodb.net/test?retryWrites=true&w=majority",
   "jwtSecret": "sQwerDfgh"
 }

@@ -1,4 +1,5 @@
 const express = require('express');
+const morgan = require('morgan');
 const connectDB = require('./config/db');
 const userRoutes = require('./routes/user');
 const profileRoutes = require('./routes/profile');
@@ -11,10 +12,11 @@ const app = express();
 connectDB();
 
 app.use(express.json({ extended: false }));
+app.use(morgan('tiny'));
 
 // Routes Middleware
 app.use('/api', authRoutes);
-app.use('/api/user', userRoutes);
+app.use('/api/users', userRoutes);
 app.use('/api/profile', profileRoutes);
 app.use('/api/posts', postRoutes);
 
