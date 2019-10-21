@@ -2,5 +2,5 @@
   "mongoURI": "your mongoURI",
   "jwtSecret": "your jwtSecret",
   "githubClientId": "your githubClientId",
-  "githubSecret": "your githubSecret"
+  "githubSecret": "githubSecret key"
 }
